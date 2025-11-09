@@ -2,81 +2,75 @@
   "Temporary Files": [
     "C:\\Windows\\Temp",
     "%TEMP%",
-    "%USERPROFILE%\\AppData\\Local\\Temp",
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache",
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+    "%LOCALAPPDATA%\\Temp"
   ],
   "Prefetch": [
     "C:\\Windows\\Prefetch"
   ],
   "Thumbnail Cache": [
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\Explorer"
+    "%LOCALAPPDATA%\\Microsoft\\Windows\\Explorer"
+  ],
+  "Browser Cache - Chrome": [
+    "%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Cache",
+    "%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Service Worker\\CacheStorage"
+  ],
+  "Browser Cache - Edge": [
+    "%LOCALAPPDATA%\\Microsoft\\Edge\\User Data\\Default\\Cache",
+    "%LOCALAPPDATA%\\Microsoft\\Edge\\User Data\\Default\\Service Worker\\CacheStorage"
+  ],
+  "Browser Profiles - Firefox": [
+    "%APPDATA%\\Mozilla\\Firefox\\Profiles"
+  ],
+  "Crash Dumps & Minidumps": [
+    "%LOCALAPPDATA%\\CrashDumps",
+    "%SYSTEMROOT%\\Minidump"
   ],
   "Windows Update Cache": [
-    "C:\\Windows\\SoftwareDistribution\\Download",
-    "C:\\Windows\\SoftwareDistribution\\DataStore",
-    "%SystemRoot%\\WinSxS",
-    "%SystemRoot%\\Logs\\CBS"
+    "%SYSTEMROOT%\\SoftwareDistribution\\Download"
   ],
-  "Browser Cache": [
-    "%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Cache",
-    "%LOCALAPPDATA%\\Microsoft\\Edge\\User Data\\Default\\Cache",
-    "%APPDATA%\\Mozilla\\Firefox\\Profiles",
-    "%LOCALAPPDATA%\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Cache",
-    "%APPDATA%\\Opera Software"
-  ],
-  "Crash Dumps & Logs": [
-    "%LOCALAPPDATA%\\CrashDumps",
-    "C:\\Windows\\Minidump",
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WER\\ReportArchive",
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WER\\ReportQueue"
-  ],
-  "Installer/Update Temp & Logs": [
-    "%USERPROFILE%\\Downloads",
+  "Installer cache & logs": [
     "%LOCALAPPDATA%\\Temp",
-    "C:\\ProgramData\\Package Cache",
-    "C:\\ProgramData\\Temp"
+    "%PROGRAMDATA%\\Package Cache",
+    "%PROGRAMDATA%\\Temp"
   ],
-  "Gaming & Launcher Cache": [
-    "%USERPROFILE%\\AppData\\Local\\Steam\\htmlcache",
-    "%USERPROFILE%\\AppData\\Local\\EpicGamesLauncher\\Saved\\webcache",
-    "%USERPROFILE%\\AppData\\Roaming\\Origin",
-    "%USERPROFILE%\\AppData\\Local\\Ubisoft Game Launcher"
+  "Steam Launcher & Webcache (not games)": [
+    "%LOCALAPPDATA%\\Steam",
+    "%LOCALAPPDATA%\\Steam\\htmlcache"
   ],
-  "Chat & Messenger Cache": [
-    "%USERPROFILE%\\AppData\\Roaming\\Discord\\Cache",
-    "%USERPROFILE%\\AppData\\Local\\Telegram Desktop\\tdata\\D877F783D5D3EF8C",
-    "%USERPROFILE%\\AppData\\Roaming\\Skype"
+  "Epic/Origin/Ubisoft caches": [
+    "%LOCALAPPDATA%\\EpicGamesLauncher\\Saved\\webcache",
+    "%LOCALAPPDATA%\\Origin",
+    "%LOCALAPPDATA%\\Ubisoft Game Launcher"
   ],
-  "Editors & Dev Cache": [
+  "Editors & Dev caches": [
+    "%APPDATA%\\Code\\Cache",
+    "%APPDATA%\\Code\\CachedData",
     "%USERPROFILE%\\.npm",
-    "%USERPROFILE%\\.cache",
-    "%USERPROFILE%\\AppData\\Roaming\\Code\\Cache",
-    "%USERPROFILE%\\AppData\\Roaming\\Code\\CachedData"
+    "%USERPROFILE%\\.cache"
   ],
-  "Cloud & Sync Cache": [
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\OneDrive",
-    "%USERPROFILE%\\AppData\\Local\\Packages\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy"
+  "Chat App Caches": [
+    "%APPDATA%\\Discord\\Cache",
+    "%APPDATA%\\Telegram Desktop\\tdata",
+    "%APPDATA%\\Skype"
   ],
-  "Old Windows Logs": [
-    "%SystemRoot%\\Logs\\DISM",
-    "%SystemRoot%\\Logs\\WindowsUpdate"
+  "OneDrive / Dropbox caches": [
+    "%LOCALAPPDATA%\\Microsoft\\OneDrive",
+    "%LOCALAPPDATA%\\Packages\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy"
   ],
-  "Event Logs": [
-    "%SystemRoot%\\System32\\Winevt\\Logs"
+  "Downloads (partial installers and temp files)": [
+    "%USERPROFILE%\\Downloads"
   ],
-  "Microsoft Office Cache": [
-    "%LOCALAPPDATA%\\Microsoft\\Office\\Recent",
-    "%LOCALAPPDATA%\\Microsoft\\Office\\Telemetry"
+  "GPU Shader Caches": [
+    "%LOCALAPPDATA%\\NVIDIA\\DXCache",
+    "%LOCALAPPDATA%\\AMD\\DXCache",
+    "%LOCALAPPDATA%\\Intel\\ShaderCache"
   ],
-  "Media & Thumbnails": [
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_*.db"
+  "Game Launchers temp": [
+    "%LOCALAPPDATA%\\Riot Games",
+    "%LOCALAPPDATA%\\Blizzard Entertainment"
   ],
-  "Temporary Internet Files": [
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache",
-    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
-  ],
-  "Downloaded Program Files": [
-    "C:\\Windows\\Downloaded Program Files"
+  "Temporary Browser Installers": [
+    "%LOCALAPPDATA%\\Temp\\*installer*"
   ]
 }
+
