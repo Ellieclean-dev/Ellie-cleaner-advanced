@@ -2,14 +2,81 @@
   "Temporary Files": [
     "C:\\Windows\\Temp",
     "%TEMP%",
-    "%AppData%\\Local\\Temp"
+    "%USERPROFILE%\\AppData\\Local\\Temp",
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache",
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+  ],
+  "Prefetch": [
+    "C:\\Windows\\Prefetch"
+  ],
+  "Thumbnail Cache": [
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\Explorer"
+  ],
+  "Windows Update Cache": [
+    "C:\\Windows\\SoftwareDistribution\\Download",
+    "C:\\Windows\\SoftwareDistribution\\DataStore",
+    "%SystemRoot%\\WinSxS",
+    "%SystemRoot%\\Logs\\CBS"
   ],
   "Browser Cache": [
-    "%LocalAppData%\\Google\\Chrome\\User Data\\Default\\Cache",
-    "%AppData%\\Mozilla\\Firefox\\Profiles"
+    "%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Cache",
+    "%LOCALAPPDATA%\\Microsoft\\Edge\\User Data\\Default\\Cache",
+    "%APPDATA%\\Mozilla\\Firefox\\Profiles",
+    "%LOCALAPPDATA%\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Cache",
+    "%APPDATA%\\Opera Software"
   ],
-  "Crash Dumps": [
-    "%LocalAppData%\\CrashDumps",
-    "%SystemRoot%\\Minidump"
+  "Crash Dumps & Logs": [
+    "%LOCALAPPDATA%\\CrashDumps",
+    "C:\\Windows\\Minidump",
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WER\\ReportArchive",
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WER\\ReportQueue"
+  ],
+  "Installer/Update Temp & Logs": [
+    "%USERPROFILE%\\Downloads",
+    "%LOCALAPPDATA%\\Temp",
+    "C:\\ProgramData\\Package Cache",
+    "C:\\ProgramData\\Temp"
+  ],
+  "Gaming & Launcher Cache": [
+    "%USERPROFILE%\\AppData\\Local\\Steam\\htmlcache",
+    "%USERPROFILE%\\AppData\\Local\\EpicGamesLauncher\\Saved\\webcache",
+    "%USERPROFILE%\\AppData\\Roaming\\Origin",
+    "%USERPROFILE%\\AppData\\Local\\Ubisoft Game Launcher"
+  ],
+  "Chat & Messenger Cache": [
+    "%USERPROFILE%\\AppData\\Roaming\\Discord\\Cache",
+    "%USERPROFILE%\\AppData\\Local\\Telegram Desktop\\tdata\\D877F783D5D3EF8C",
+    "%USERPROFILE%\\AppData\\Roaming\\Skype"
+  ],
+  "Editors & Dev Cache": [
+    "%USERPROFILE%\\.npm",
+    "%USERPROFILE%\\.cache",
+    "%USERPROFILE%\\AppData\\Roaming\\Code\\Cache",
+    "%USERPROFILE%\\AppData\\Roaming\\Code\\CachedData"
+  ],
+  "Cloud & Sync Cache": [
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\OneDrive",
+    "%USERPROFILE%\\AppData\\Local\\Packages\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy"
+  ],
+  "Old Windows Logs": [
+    "%SystemRoot%\\Logs\\DISM",
+    "%SystemRoot%\\Logs\\WindowsUpdate"
+  ],
+  "Event Logs": [
+    "%SystemRoot%\\System32\\Winevt\\Logs"
+  ],
+  "Microsoft Office Cache": [
+    "%LOCALAPPDATA%\\Microsoft\\Office\\Recent",
+    "%LOCALAPPDATA%\\Microsoft\\Office\\Telemetry"
+  ],
+  "Media & Thumbnails": [
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\Explorer\\thumbcache_*.db"
+  ],
+  "Temporary Internet Files": [
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache",
+    "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+  ],
+  "Downloaded Program Files": [
+    "C:\\Windows\\Downloaded Program Files"
   ]
 }
