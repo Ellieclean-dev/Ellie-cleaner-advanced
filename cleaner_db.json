@@ -1,0 +1,15 @@
+{
+  "Temporary Files": [
+    "C:\\Windows\\Temp",
+    "%TEMP%",
+    "%AppData%\\Local\\Temp"
+  ],
+  "Browser Cache": [
+    "%LocalAppData%\\Google\\Chrome\\User Data\\Default\\Cache",
+    "%AppData%\\Mozilla\\Firefox\\Profiles"
+  ],
+  "Crash Dumps": [
+    "%LocalAppData%\\CrashDumps",
+    "%SystemRoot%\\Minidump"
+  ]
+}
